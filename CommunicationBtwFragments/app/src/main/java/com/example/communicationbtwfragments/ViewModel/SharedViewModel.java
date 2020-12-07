@@ -1,10 +1,12 @@
-package com.example.communicationbtwfragments;
+package com.example.communicationbtwfragments.ViewModel;
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
+import com.example.communicationbtwfragments.Model.Sort;
+
 public class SharedViewModel extends ViewModel {
-    MutableLiveData<String> message=  new MutableLiveData<String>();
+    public MutableLiveData<String> message=  new MutableLiveData<String>();
     public MutableLiveData<String> getMessage() {
         return message;
     }

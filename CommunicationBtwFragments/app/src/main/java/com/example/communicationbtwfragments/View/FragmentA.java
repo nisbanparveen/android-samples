@@ -1,4 +1,4 @@
-package com.example.communicationbtwfragments;
+package com.example.communicationbtwfragments.View;
 
 
 import android.os.Bundle;
@@ -10,6 +10,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.communicationbtwfragments.R;
+import com.example.communicationbtwfragments.ViewModel.SharedViewModel;
 import com.example.communicationbtwfragments.databinding.FragmentABinding;
 
 

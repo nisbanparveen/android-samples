@@ -1,4 +1,4 @@
-package com.example.communicationbtwfragments;
+package com.example.communicationbtwfragments.Model;
 
 import java.util.Arrays;
 

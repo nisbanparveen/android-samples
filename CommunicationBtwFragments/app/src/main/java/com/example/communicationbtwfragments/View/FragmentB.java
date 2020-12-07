@@ -1,4 +1,4 @@
-package com.example.communicationbtwfragments;
+package com.example.communicationbtwfragments.View;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -11,6 +11,9 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 
+import com.example.communicationbtwfragments.ViewModel.SharedViewModel;
+import com.example.communicationbtwfragments.Model.Sort;
+import com.example.communicationbtwfragments.Model.SortAlgo;
 import com.example.communicationbtwfragments.databinding.FragmentBBinding;
 
 import java.util.Arrays;

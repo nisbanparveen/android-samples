@@ -1,4 +1,4 @@
-package com.example.communicationbtwfragments;
+package com.example.communicationbtwfragments.Model;
 
 public class Sort {
     private int[] sortAscending;
